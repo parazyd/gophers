@@ -1,0 +1,13 @@
+[package]
+name = "gophers"
+version = "0.0.1"
+description = "Gopher and Gopher-over-TLS library"
+authors = ["parazyd <parazyd@dyne.org>"]
+repository = "https://github.com/parazyd/gophers"
+license = "AGPL-3.0-only"
+edition = "2021"
+
+[dependencies]
+native-tls = "0.2.11"
+thiserror = "1.0.38"
+url = "2.3.1"
